@@ -1,5 +1,7 @@
 #include <stdio.h>
+
 int main() {
-  pirntg("hello\n");
+  char str[] = "hello";
+  printf("%s\n", str);
   return 0;
 }
